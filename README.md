@@ -23,7 +23,7 @@ With all of this in mind, the project was built with the following constraints i
 ## Hardware Info
 Place Holder
 
-![Micro Drone](https://github.com/JadinTredup/droneNLedu/blob/master/images/drone%20photo.jpg "Cheerson Micro Drone")
+![Micro Drone](https://github.com/JadinTredup/DroneNLedu/blob/master/images/cx10wd.jpg "Cheerson Micro Drone")
 
 ## Simulation Info
 Place Holder
