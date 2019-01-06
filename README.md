@@ -54,8 +54,11 @@ First, download the repository as a zip-file from the github page by clicking th
 
 ### Dependencies and Requirements
 
-## Running the Examples
+## Testing the Installation
 
-### Testing Hardware Connectivity
+### Hardware Tests
 
-### Simulation Testing
+#### Connecting to Drone
+The first step to running the code for the hardware modules is to connect your host PC to the wifi network established by the drone. To do this, power on your drone and wait a few seconds for the signal to be emitted. Then, on your host PC, navigate to where you configure your wifi connection and conenct to the drones network. It's name will be some variation of "XXXX" as can be seen in the images below.
+
+### Simulation Tests
