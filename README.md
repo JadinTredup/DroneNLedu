@@ -20,13 +20,23 @@ With all of this in mind, the project was built with the following constraints i
 - Simulation is built on an open-source physics engine.
 - All software is OS agnostic.
 
-## Hardware Info
-Place Holder
+Additionally, because the software is to be accessible by all skill levels, the installation instructions are intentionally 
+written for those without much background in coding.
 
-![Micro Drone](https://github.com/JadinTredup/DroneNLedu/blob/master/images/cx10wd.jpg "Cheerson Micro Drone")
+## Hardware Info
+The hardware currently supported is the Cheerson CX-10WD-TX, a nano quadcopter that can be purchased either on Amazon or 
+a number of other online retailers for about $30.00. Weighing at only 17 grams, the UAV has a 0.3 megapixel FPV camera and 
+a 6-axis gryo for flight stablization. It has quite a bit of functionality for such a small and cheap UAV.  Additionally, 
+thanks to efforts by the open source community to derive theCX-10WD-TX’s communication protocol, its functionality hasbeen 
+extended by a variety of programming languages, making it one of the most readily available programmable multirotordrones.
+
+![Micro Drone](https://github.com/JadinTredup/DroneNLedu/blob/master/Images/cx10wd.jpg "Cheerson Micro Drone")
 
 ## Simulation Info
-Place Holder
+The simulation side of things is handled by PyBullet, a package which provides a Python API for interacting with the open-source 
+Bullet physics environment. As of right now, the simulation environment only has one quadcopter model, but more can be added easily 
+with the inclusion of new URDF files.
+
 ## Installation  
 This installtion guide assumes one of the following:
 - There is a fresh installation of Python 3 on the host PC.
@@ -38,9 +48,13 @@ manager can be found in the [Guides Section](https://github.com/JadinTredup/dron
 
 ### Download the Repository
 
+First, download the repository as a zip-file from the github page by clicking the buttons outlined in red in the image below.
+
+![Download Zip](https://github.com/JadinTredup/DroneNLedu/blob/master/Images/DownloadZip.png)
+
 ### Dependencies and Requirements
 
-## Examples
+## Running the Examples
 
 ### Testing Hardware Connectivity
 
