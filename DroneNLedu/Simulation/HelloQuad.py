@@ -7,7 +7,7 @@ import numpy as np
 from gym import spaces
 
 Tsample_physics = 0.0001
-UAV_DIR = os.path.join("Robots", "UAV")
+UAV_DIR = os.path.join("SimObjects", "Robots", "UAV")
 uav_model = os.path.join(UAV_DIR, "quadrotor.urdf")
 G = 9.81
 
@@ -197,7 +197,7 @@ class UAVController:
         xdot[9] = ((self.Iz - self.Ix) / self.Iy) * x[7] * x[11] + u[2] / self.Iy
 
         xdot[10] = (1 / np.sin(x[8])) * (
-                    -1 * np.cos(x[8]) * np.sin(x[10]) * x[7] - np.cos(x[8]) * np.cos(x[10]) * x[9] + x[11])
+                -1 * np.cos(x[8]) * np.sin(x[10]) * x[7] - np.cos(x[8]) * np.cos(x[10]) * x[9] + x[11])
         xdot[11] = ((self.Ix - self.Iy) / self.Iz) * x[7] * x[9] + u[3] / self.Iz
 
         return xdot
