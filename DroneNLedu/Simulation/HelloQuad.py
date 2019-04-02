@@ -4,6 +4,8 @@ import pybullet_data
 import os
 import numpy as np
 
+from Environments import StandardEnvironment
+
 from gym import spaces
 
 Tsample_physics = 0.0001
@@ -231,6 +233,10 @@ class TaskHover:
                            [0]])
 
         return X_d, dX_d, d2X_d
+
+
+def main():
+    env = StandardEnvironment()
 
 
 if __name__ == "__main__":
